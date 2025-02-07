@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about.txt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <span class="title">about.txt</span>
+        </div>
+        <div class="terminal-body">
+            <p class="command">Mac:~ User$ <span class="typing"></span></p>
+            <p class="response about-text" style="display: none;">
+                Hi! I'm Amy Gutierrez, a DevSecOps engineer <br>
+                - 🛠️ This page is still under construction.<br><br>
+
+                <a href="index.html" class="terminal-link">Go back</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let commandText = "cat about.txt"; // The typed command
+            let typingElement = document.querySelector(".typing");
+            let aboutTextElement = document.querySelector(".about-text");
+
+            let i = 0;
+
+            function typeCommand() {
+                if (i < commandText.length) {
+                    typingElement.innerHTML = commandText.substring(0, i + 1) + '<span class="blinking-cursor">|</span>';
+                    i++;
+                    setTimeout(typeCommand, 100);
+                } else {
+                    // Remove cursor after typing command
+                    typingElement.innerHTML = commandText;
+
+                    // Instantly show the about text
+                    setTimeout(() => {
+                        aboutTextElement.style.display = "block";
+                    }, 500);
+                }
+            }
+
+            typeCommand();
+        });
+    </script>
+</body>
+</html>

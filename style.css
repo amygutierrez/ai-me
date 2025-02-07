@@ -1,0 +1,158 @@
+body {
+    background-color: #e5b7c7;
+    color: #5a3a3a;
+    font-family: "Courier New", monospace;
+    text-align: left;
+    padding: 20px;
+}
+
+.terminal {
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgba(248, 232, 232, 0.8);
+    backdrop-filter: blur(8px);
+    position: relative;
+    overflow: hidden;
+}
+
+.terminal-header {
+    background-color: #d49aa3;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    color: #5a3a3a;
+}
+
+/* Terminal Body */
+.terminal-body {
+    position: relative;
+    padding: 40px;
+    height: 300px;
+    width: 100%;
+    max-width: 750px;
+    overflow: hidden;
+    background: none; 
+}
+
+/* ASCII Art */
+.ascii-art {
+    font-family: monospace;
+    color: #5a3a3a; 
+    margin-bottom: 20px;
+    white-space: pre;
+}
+
+/* File Structure Styling */
+.file-structure {
+    font-size: 14px;
+    color: #5a3a3a;
+    margin-top: 10px;
+    display: none;
+}
+
+.terminal-body::after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 250px;
+    height: 250px;
+    background: url('images/AI-DEN_Hardhat.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.4;
+    pointer-events: none; 
+}
+
+/* Terminal Text */
+/* .terminal-body p {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+} */
+
+/* Terminal Commands */
+.command {
+    font-weight: normal;
+    color: #222;
+}
+
+/* Bold Only for Typed Command */
+.typed-command {
+    font-weight: bold;
+}
+
+.response {
+    color: #555;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Typing effect container */
+.typing {
+    display: inline-flex;;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: bottom;
+    min-width: 12ch;
+}
+
+/* Cursor effect */
+.blinking-cursor {
+    display: inline-block;
+    margin-left: 5px;
+    animation: blink 0.8s infinite;
+}
+
+/* Hide blinking cursor from the first line after typing is done */
+.typed-command .blinking-cursor {
+    display: none;
+}
+
+/* Initially hide the output */
+.output {
+    display: none;
+    color: #333;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Normal weight for Mac:~ User$ (new line) */
+.command {
+    font-weight: normal;
+    color: #222;
+}
+
+/* Make only the typed command bold */
+.typed-command {
+    font-weight: bold;
+}
+
+/* Make clickable links look like terminal text */
+.terminal-link {
+    color: #5a3a3a;
+    text-decoration: none;
+}
+
+.terminal-link:hover {
+    text-decoration: underline;
+}
