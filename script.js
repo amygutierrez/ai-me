@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (i < commandText.length) {
             typingElement.innerHTML = commandText.substring(0, i + 1) + '<span class="blinking-cursor">|</span>';
             i++;
-            setTimeout(typeCommand, 100); // Adjust speed here
+            setTimeout(typeCommand, 175); // Adjust speed here
         } else {
             // Remove cursor after typing
             typingElement.innerHTML = commandText;
