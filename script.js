@@ -1,5 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
-    
+    fetch("images/ai-den.json")
+        .then(response => response.json())
+        .then(data => {
+            if (data.images && data.images.length > 0) {
+                // Pick a random image from the JSON list
+                const randomImage = data.images[Math.floor(Math.random() * data.images.length)];
+
+                // Apply the random image to the pseudo-element via CSS
+                const style = document.createElement("style");
+                style.innerHTML = `
+                    .terminal-body::after {
+                        background: url('${randomImage}') no-repeat center;
+                        background-size: contain;
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+        })
+        .catch(error => console.error("Error loading images:", error));
+
     let commandText = "tree";
     let typingElement = document.querySelector(".typing");
     let fileStructureElement = document.querySelector(".file-structure");
