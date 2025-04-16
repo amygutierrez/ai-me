@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about.txt</title>
+    <title>Pojects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,30 +14,19 @@
         <div class="terminal-body">
             <p class="command">Mac:~ User$ <span class="typing"></span></p>
             <p class="response about-text" style="display: none;">
-                Hi! I'm Amy Gutierrez, a Lead Engineer, Associate at Booz Allen Hamilton. <br><br>
-            
-                🚀 Currently, I work as a DevSecOps Engineer for a government agency, where I specialize in:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Automating CI/CD pipelines with GitHub Actions<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Building and deploying containerized applications to AWS ECR<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Leading a smoke test automation project<br><br>
-            
-                💡 Previously, I served as an ML Engineer for another government agency, where I worked on:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Computer Vision for analyzing CT images<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Natural Language Processing (NLP) for clinical reports<br><br>
-                
-                🤖 My core areas of expertise include:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Artificial Intelligence & Machine Learning<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- DevSecOps<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Software Development<br><br>
-            
-                🎓 Degrees: <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- BS Biomedical Engineering<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- MS Biomedical Engineering<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- MS Applied Artificial Intelligence<br><br>
-            </p> <br>
+                <strong>Project: Lost Connections - Making Impacts Through Hidden Voices</strong><br>
+                This project was created for the WAI Smithsonian Hackathon 2024 for Booz Allen Hamilton.<br><br>
+                <em>Goal:</em> To illuminate the interconnectedness of women's achievements by creating a dynamic networking application, <strong>"Smithsonian: Lost Connections"</strong>, to map the profound impact of various contributions to society.<br><br>
+                <em>Objective:</em> Allow users to explore individuals' contributions by visualizing the connections between artifacts through Smithsonian departments, collections, and artifact types.<br><br>
+                <em>Data Sources:</em><br>
+                - Smithsonian Institution Enterprise Data Access Network<br>
+                - Smithsonian Institution Encoded Archival Description (EAD) XML Metadata<br>
+                - Wikipedia Science Data<br><br>
+                <em>My Role:</em> I focused on creating a web crawler that searched through Smithsonian web pages, stored this information in an index, and inserted it into our network map algorithm. This algorithm then generated a visual map of names, artifacts, curators, and Smithsonian departments.<br><br>
 
+            </p>
+            <br>
             <a href="index.html" class="terminal-link">Go back</a>
-
         </div>
     </div>
 
@@ -63,7 +52,7 @@
         })
         .catch(error => console.error("Error loading images:", error));
 
-            let commandText = "cat about.txt"; // The typed command
+            let commandText = "cat smithsonian-hackathon-2024.md"; // The typed command
             let typingElement = document.querySelector(".typing");
             let aboutTextElement = document.querySelector(".about-text");
 

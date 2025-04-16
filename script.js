@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
 /home/user/<br>
 ├── <a href="about.html" class="terminal-link">about.txt</a><br>
 ├── projects/<br>
-│   ├── <a href="#projects" class="terminal-link">project1.md</a><br>
+│   ├── <a href="project1.html" class="terminal-link">smithsonian-hackathon-2024.md</a><br>
 │   ├── <a href="#projects" class="terminal-link">project2.md</a><br>
 │   ├── <a href="#projects" class="terminal-link">project3.md</a><br>
-└── <a href="#contact" class="terminal-link">contact.txt</a>
+└── <a href="contact.html" class="terminal-link">contact.txt</a>
                 `;
 
                 // Move cursor to a new line after displaying file structure

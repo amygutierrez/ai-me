@@ -3,43 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about.txt</title>
+    <title>contact.txt</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="terminal">
         <div class="terminal-header">
-            <span class="title">about.txt</span>
+            <span class="title">contact.txt</span>
         </div>
         <div class="terminal-body">
             <p class="command">Mac:~ User$ <span class="typing"></span></p>
-            <p class="response about-text" style="display: none;">
-                Hi! I'm Amy Gutierrez, a Lead Engineer, Associate at Booz Allen Hamilton. <br><br>
-            
-                🚀 Currently, I work as a DevSecOps Engineer for a government agency, where I specialize in:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Automating CI/CD pipelines with GitHub Actions<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Building and deploying containerized applications to AWS ECR<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Leading a smoke test automation project<br><br>
-            
-                💡 Previously, I served as an ML Engineer for another government agency, where I worked on:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Computer Vision for analyzing CT images<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Natural Language Processing (NLP) for clinical reports<br><br>
-                
-                🤖 My core areas of expertise include:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Artificial Intelligence & Machine Learning<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- DevSecOps<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Software Development<br><br>
-            
-                🎓 Degrees: <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- BS Biomedical Engineering<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- MS Biomedical Engineering<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;- MS Applied Artificial Intelligence<br><br>
-            </p> <br>
+            <p class="response contact-form" style="display: none;"></p>
+                <!-- 📧 Feel free to reach out to me using the form below:<br><br> -->
+            <!-- Contact Form -->
+                <form action="https://formspree.io/f/xyzeayow" method="POST" class="response contact-form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
 
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+
+                    <button type="submit">Send</button>
+                </form>
+            </p>
+            <br>
             <a href="index.html" class="terminal-link">Go back</a>
-
         </div>
     </div>
+</body>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -63,9 +57,9 @@
         })
         .catch(error => console.error("Error loading images:", error));
 
-            let commandText = "cat about.txt"; // The typed command
+            let commandText = "cat contact.txt"; // The typed command
             let typingElement = document.querySelector(".typing");
-            let aboutTextElement = document.querySelector(".about-text");
+            let responseElement = document.querySelector(".contact-form");
 
             let i = 0;
 
@@ -80,7 +74,7 @@
 
                     // Instantly show the about text
                     setTimeout(() => {
-                        aboutTextElement.style.display = "block";
+                        responseElement.style.display = "block";
                     }, 500);
                 }
             }

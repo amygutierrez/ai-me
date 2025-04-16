@@ -33,10 +33,13 @@ body {
     position: relative;
     padding: 40px;
     height: 300px;
+    max-height: 400px;
     width: 100%;
     max-width: 750px;
-    overflow: hidden;
-    background: none; 
+    /*overflow: hidden;
+    background: none;*/
+    overflow-y: scroll;
+    z-index: 1;
 }
 
 /* ASCII Art */
@@ -59,12 +62,14 @@ body {
     content: "";
     position: absolute;
     bottom: 40px;
-    right: 50px;
+    right: 20px;
     width: 250px;
     height: 250px;
     background-size: contain;
     opacity: 0.4;
-    pointer-events: none; 
+    pointer-events: none;
+    z-index: -1;
+    background: none;
 }
 
 /* Terminal Text */
@@ -87,6 +92,88 @@ body {
 
 .response {
     color: #555;
+}
+
+.response.about-text {
+    max-width: calc(100% - 200px); /* Ensure text stays within the terminal body, leaving space for the character */
+    max-height: calc(100% - 75px); /* Leave space at the bottom for the character */
+    overflow-wrap: break-word; /* Ensure long words break properly */
+    overflow-y: scroll; /* Add scrolling if the text exceeds the defined height */
+    margin: 0; /* Remove any extra margins */
+    padding-right: 20px; /* Add some padding for better readability */
+}
+
+.response.about-text::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.response.about-text::-webkit-scrollbar-thumb {
+    background-color: #d49aa3; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+.response.about-text::-webkit-scrollbar-track {
+    background-color: #f8e8e8; /* Color of the scrollbar track */
+}
+
+/* For Firefox */
+.response.about-text {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: #d49aa3 #f8e8e8; /* Thumb color and track color */
+}
+
+.response.contact-form {
+    margin-top: 20px;
+    max-width: calc(100% - 200px); /* Ensure text stays within the terminal body, leaving space for the character */
+    max-height: calc(100% - 75px); /* Leave space at the bottom for the character */
+    overflow-wrap: break-word; /* Ensure long words break properly */
+    overflow-y: scroll; /* Add scrolling if the text exceeds the defined height */
+    margin: 0; /* Remove any extra margins */
+    padding-right: 20px; /* Add some padding for better readability */
+}
+
+.response.contact-form input, .contact-form textarea {
+    width: calc(100% - 200px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+    background-color: #f8e8e8;
+    color: #5a3a3a;
+}
+
+.response.contact-form button {
+    background-color: #d49aa3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Courier New", monospace;
+}
+
+.response.contact-form button:hover {
+    background-color: #c0788f;
+}
+
+.response.contact-form::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.response.contact-form::-webkit-scrollbar-thumb {
+    background-color: #d49aa3; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+.response.contact-form::-webkit-scrollbar-track {
+    background-color: #f8e8e8; /* Color of the scrollbar track */
+}
+
+/* For Firefox */
+.response.contact-form {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: #d49aa3 #f8e8e8; /* Thumb color and track color */
 }
 
 /* Typing animation */
