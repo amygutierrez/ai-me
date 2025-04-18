@@ -1,0 +1,5 @@
+title: My Jekyll Site
+description: A simple Jekyll site
+baseurl: ""
+url: "https://amygutierrez.github.io"
+api_key: "<%= ENV['API_KEY'] %>"
