@@ -387,7 +387,7 @@ function displayResults(listingsToDisplay) {
             row.innerHTML = `
                 <td class="item-cell">
                     <div class="item-info">
-                        <img src="${iconUrl || 'placeholder-icon.png'}" class="item-icon pixelated" alt="${itemName}" onerror="this.onerror=null; this.src='placeholder-icon.png';">
+                        <img src="${iconUrl || '../../images/AI-DEN_Cowboy.png'}" class="item-icon pixelated" alt="${itemName}" onerror="this.onerror=null; this.src='../../images/AI-DEN_Cowboy.png';">
                         <span>${itemName}</span>
                     </div>
                 </td>
