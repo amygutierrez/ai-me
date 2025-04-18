@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
 │   ├── <a href="project1.html" class="terminal-link">smithsonian-hackathon-2024.md</a><br>
 │   ├── <a href="#projects" class="terminal-link">project2.md</a><br>
 │   ├── <a href="#projects" class="terminal-link">project3.md</a><br>
+├── Fantasy Online 2<br>
+│   ├── <a href="./FO2/MarketTracker/FO2MarketTrack.html" class="terminal-link">market-tracker.html</a><br>
 └── <a href="contact.html" class="terminal-link">contact.txt</a>
                 `;
 
