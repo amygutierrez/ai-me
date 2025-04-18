@@ -10743,12 +10743,5 @@
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/consumable-bp-noob-icon.png",
         "Sell": "",
         "Buy": ""
-    },
-    {
-        "Item ID": 9999,
-        "Name": "Easter Egg Bundle",
-        "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/easter-egg-bundle-icon.png",
-        "Sell": 5000,
-        "Buy": ""
     }
 ]
