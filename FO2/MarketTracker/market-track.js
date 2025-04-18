@@ -1,5 +1,5 @@
 const API_BASE_URL = 'https://fantasyonline2.com/api/public';
-const API_KEY = 'ff017f56-342f-43b8-ac5b-8917cf005b91'; // Replace with your actual key if needed
+const API_KEY = process.env.API_KEY; // Replace with your actual key if needed
 
 let embeddedItemData = null; // Initialize as null
 
