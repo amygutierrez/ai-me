@@ -39,9 +39,9 @@ h1 { margin: 0; font-size: 2rem; }
 select { padding: 8px; border-radius: 4px; border: 1px solid #ddd; }
 
 /* Last Updated and Refresh Button Styles */
-.update-info { display: flex; align-items: center; gap: 10px; margin-left: auto; font-size: 0.9rem; color: #555; }
+.update-info { display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; justify-content: flex-start; margin-left: auto; font-size: 0.9rem; color: #555; }
 #last-updated-timestamp { white-space: nowrap; }
-#refresh-button { padding: 6px 12px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; transition: background-color 0.3s; }
+#refresh-button { padding: 6px 12px; flex-shrink: 0; white-space: nowrap; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; transition: background-color 0.3s; }
 #refresh-button:hover { background-color: #45a049; }
 #refresh-button:disabled { background-color: #cccccc; color: #666666; cursor: not-allowed; }
 .refresh-spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,.3); border-radius: 50%; border-top-color: #fff; animation: spin 1s ease-in-out infinite; margin-left: 5px; vertical-align: middle; }
