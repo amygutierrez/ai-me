@@ -146,11 +146,12 @@ async function loadItemDatabase() {
                 console.warn("Item missing or has invalid 'Item ID':", item);
             }
         });
-        databaseStatus.innerHTML = `<div class="database-status"><span>Item database loaded successfully (${validItems} items)</span></div>`;
+        console.log('Database load successfully:', (validItems), 'items loaded');
+        // databaseStatus.innerHTML = `<div class="database-status"><span>Item database loaded successfully (${validItems} items)</span></div>`;
         return true;
     } catch (error) {
         console.error('Database load error:', error);
-        databaseStatus.innerHTML = `<div class="database-status error"><span>Failed to load item database: ${error.message}</span><button onclick="location.reload()">Retry</button></div>`;
+        // databaseStatus.innerHTML = `<div class="database-status error"><span>Failed to load item database: ${error.message}</span><button onclick="location.reload()">Retry</button></div>`;
         return false;
     }
 }
