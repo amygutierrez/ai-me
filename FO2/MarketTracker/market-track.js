@@ -35,7 +35,7 @@ let itemDatabase = null;
 let currentMarketListings = []; // Stores full data for the current page from API
 let currentlyDisplayedListings = []; // Stores the listings currently shown (after filtering)
 let abortController = null;
-let lastUpdateTime = null;
+// let lastUpdateTime = null;
 let showProfitableOnlyState = false; // Tracks if the profitable filter *should* be active
 let isComprehensiveSearchActive = false; // Tracks if we are *currently showing* comprehensive results
 let comprehensiveSearchResults = [];
@@ -67,7 +67,7 @@ const detailsRecentlyListedPrice = document.getElementById('details-recently-lis
 const detailsBuyPrice = document.getElementById('details-buy-price');
 const detailsSellPrice = document.getElementById('details-sell-price');
 const detailsError = document.getElementById('details-error');
-const lastUpdatedTimestampSpan = document.getElementById('last-updated-timestamp');
+// const lastUpdatedTimestampSpan = document.getElementById('last-updated-timestamp');
 const refreshButton = document.getElementById('refresh-button');
 const detailsPotentialProfit = document.getElementById('details-potential-profit');
 const detailsPersonalProfit = document.getElementById('details-personal-profit');
@@ -159,7 +159,7 @@ function findItemById(itemId) { return itemDatabase?.[String(itemId)] || null; }
 function formatNumber(num) { return (num == null || isNaN(num)) ? 'N/A' : num.toLocaleString(); }
 function formatPrice(price) { return (price == null || price === "" || isNaN(price)) ? 'N/A' : `${formatNumber(price)} Coins`; }
 function setTableLoading(loading) { if (loading) { resultsBody.innerHTML = `<tr><td colspan="3" style="text-align:center; padding: 30px;"><div class="loading-spinner"></div></td></tr>`; } }
-function updateTimestampDisplay() { lastUpdatedTimestampSpan.textContent = lastUpdateTime ? `Last Updated: ${lastUpdateTime.toLocaleTimeString()}` : 'Last Updated: Never'; }
+// function updateTimestampDisplay() { lastUpdatedTimestampSpan.textContent = lastUpdateTime ? `Last Updated: ${lastUpdateTime.toLocaleTimeString()}` : 'Last Updated: Never'; }
 
 async function searchMarket(page = currentPage, term = searchInput.value.trim(), sort = currentSort, direction = currentDirection) {
     const isForComprehensive = isComprehensiveSearchActive; // Snapshot state
@@ -214,8 +214,8 @@ async function searchMarket(page = currentPage, term = searchInput.value.trim(),
         updatePagination();
         applyClientSideFilter(); // Filter and display the new data
         resultsContainer.style.display = 'flex';
-        lastUpdateTime = new Date();
-        updateTimestampDisplay();
+        // lastUpdateTime = new Date();
+        // updateTimestampDisplay();
         return data; // Return data
 
     } catch (error) {
@@ -804,7 +804,7 @@ async function initializeApp() {
         loadPersonalPrices(); // Load personal prices (if applicable)
         await loadEmbeddedItemData(); // Ensure JSON data is loaded before proceeding
         const dbLoaded = await loadItemDatabase(); // Load the item database after JSON is loaded
-        updateTimestampDisplay(); // Update timestamp display
+        // updateTimestampDisplay(); // Update timestamp display
 
         if (dbLoaded) {
             updateSortIndicators(); // Set initial sort indicators
