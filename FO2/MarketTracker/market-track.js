@@ -1,6 +1,5 @@
 const API_BASE_URL = 'https://fantasyonline2.com/api/public';
 const API_KEY = process.env.API_KEY; // Replace with your actual key if needed
-
 let embeddedItemData = null; // Initialize as null
 
 // Load the JSON file and assign its contents to embeddedItemData
@@ -146,7 +145,7 @@ async function loadItemDatabase() {
                 console.warn("Item missing or has invalid 'Item ID':", item);
             }
         });
-        console.log('Database load successfully:', (validItems), 'items loaded');
+        console.log('Database load successfully:', (validItems));
         // databaseStatus.innerHTML = `<div class="database-status"><span>Item database loaded successfully (${validItems} items)</span></div>`;
         return true;
     } catch (error) {
@@ -510,8 +509,8 @@ function updateSortIndicators() {
     searchButton.disabled = disable;
     refreshButton.disabled = disable;
     showProfitableButton.disabled = disable; // Always disable during any load/search
-    sortBySelect.disabled = disable;
-    sortDirectionSelect.disabled = disable;
+    // sortBySelect.disabled = disable;
+    // sortDirectionSelect.disabled = disable;
     searchInput.disabled = disable;
 
         // Keep pagination disabled during comprehensive search display
@@ -741,26 +740,36 @@ nextPageButton.addEventListener('click', function() {
     if (currentPage < totalPages) { currentPage++; searchMarket(); }
 });
 
-sortBySelect.addEventListener('change', () => {
-    if (isLoading || isComprehensiveSearchActive) return;
-    currentSort = sortBySelect.value; currentPage = 1;
-    updateSortIndicators(); searchMarket();
-});
-sortDirectionSelect.addEventListener('change', () => {
-        if (isLoading || isComprehensiveSearchActive) return;
-        currentDirection = sortDirectionSelect.value; currentPage = 1;
-        updateSortIndicators(); searchMarket();
-    });
+// sortBySelect.addEventListener('change', () => {
+//     if (isLoading || isComprehensiveSearchActive) return;
+//     currentSort = sortBySelect.value; currentPage = 1;
+//     updateSortIndicators(); searchMarket();
+// });
+// sortDirectionSelect.addEventListener('change', () => {
+//         if (isLoading || isComprehensiveSearchActive) return;
+//         currentDirection = sortDirectionSelect.value; currentPage = 1;
+//         updateSortIndicators(); searchMarket();
+//     });
 
 resultsTable.querySelector('thead').addEventListener('click', (e) => {
     if (isLoading || isComprehensiveSearchActive) return;
+
     const th = e.target.closest('th');
     if (th && th.dataset.sort) {
         const column = th.dataset.sort;
-        if (currentSort === column) { currentDirection = currentDirection === 'ASC' ? 'DESC' : 'ASC'; }
-        else { currentSort = column; currentDirection = 'ASC'; }
-        sortBySelect.value = currentSort; sortDirectionSelect.value = currentDirection;
-        updateSortIndicators(); currentPage = 1; searchMarket();
+
+        // Toggle the sort direction if the same column is clicked, otherwise reset to ascending
+        if (currentSort === column) {
+            currentDirection = currentDirection === 'ASC' ? 'DESC' : 'ASC';
+        } else {
+            currentSort = column;
+            currentDirection = 'ASC';
+        }
+
+        // Update the sort indicators and fetch the sorted data
+        updateSortIndicators();
+        currentPage = 1;
+        searchMarket();
     }
 });
 
