@@ -10748,232 +10748,232 @@
         "Item ID": 1550,
         "Name": "Lost Vanguard Sword",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-lv-faction-weapon-icon.png",
-        "Sell": "385K",
-        "Buy": "385K"
+        "Sell": 385000,
+        "Buy": 385000
     },
     {
         "Item ID": 1551,
         "Name": "Crablantian Army Helmet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-crablantian-helmet-icon.png",
-        "Sell": "150K",
-        "Buy": "150K"
+        "Sell": 150000,
+        "Buy": 150000
     },
     {
         "Item ID": 1552,
         "Name": "Berserk 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-berserk-icon.png",
-        "Sell": "1M",
-        "Buy": "1M"
+        "Sell": 1000000,
+        "Buy": 1000000
     },
     {
         "Item ID": 1553,
         "Name": "Volley 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-volley-icon.png",
-        "Sell": "1M",
-        "Buy": "1M"
+        "Sell": 1000000,
+        "Buy": 1000000
     },
     {
         "Item ID": 1554,
         "Name": "Holy Mirror 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-holy-mirror-icon.png",
-        "Sell": "1M",
-        "Buy": "1M"
+        "Sell": 1000000,
+        "Buy": 1000000
     },
     {
         "Item ID": 1555,
         "Name": "Devotion 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-devotion-icon.png",
-        "Sell": "1M",
-        "Buy": "1M"
+        "Sell": 1000000,
+        "Buy": 1000000
     },
     {
         "Item ID": 1556,
         "Name": "Soul Hypercube",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-dark-soul-cube-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1557,
         "Name": "Little Light 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-candelabra-icon.png",
-        "Sell": "1M",
-        "Buy": "1M"
+        "Sell": 1000000,
+        "Buy": 1000000
     },
     {
         "Item ID": 1558,
         "Name": "Envenomed Scindere",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-scindere-venom-icon.png",
-        "Sell": "400K",
-        "Buy": "400K"
+        "Sell": 400000,
+        "Buy": 400000
     },
     {
         "Item ID": 1559,
         "Name": "Envenomed Lituus",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-wand-lituus-venom-icon.png",
-        "Sell": "400K",
-        "Buy": "400K"
+        "Sell": 400000,
+        "Buy": 400000
     },
     {
         "Item ID": 1560,
         "Name": "Envenomed Gladius",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-jewel-ocean-venom-icon.png",
-        "Sell": "400K",
-        "Buy": "400K"
+        "Sell": 400000,
+        "Buy": 400000
     },
     {
         "Item ID": 1561,
         "Name": "Envenomed Aegis",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/offhand-shield-aegis-venom-icon.png",
-        "Sell": "400K",
-        "Buy": "400K"
+        "Sell": 400000,
+        "Buy": 400000
     },
     {
         "Item ID": 1562,
         "Name": "Rocket Man Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-rocket-man-legs-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1563,
         "Name": "Rocket Man Body",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-rocket-man-body-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1564,
         "Name": "Rocket Man Helmet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-rocket-man-head-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1565,
         "Name": "Rocket Man Jetpack",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-rocket-man-back-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1566,
         "Name": "Crimson Phantom Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-crimson-shadow-legs-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1567,
         "Name": "Crimson Phantom Body",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-crimson-shadow-body-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1568,
         "Name": "Crimson Phantom Hood",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-crimson-shadow-head-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1569,
         "Name": "Crimson Phantom Sword",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-crimson-shadow-sword-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1570,
         "Name": "Shadow Paladin Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-shadow-paladin-legs-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1571,
         "Name": "Shadow Paladin Body",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-shadow-paladin-body-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1572,
         "Name": "Shadow Paladin Helmet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-shadow-paladin-head-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1573,
         "Name": "Shadow Paladin Shield",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-shadow-paladin-shield-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1574,
         "Name": "Flare Sword",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-flare-sword-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1575,
         "Name": "Legs of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-leather-legs-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1576,
         "Name": "Body of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-leather-body-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1577,
         "Name": "Helmet of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-leather-head-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1578,
         "Name": "Staff of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-staff-wood-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1579,
         "Name": "Golden Legs of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-leather-legs-gold-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1580,
         "Name": "Golden Body of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-leather-body-gold-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1581,
         "Name": "Golden Helmet of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-leather-head-gold-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1582,
         "Name": "Golden Staff of Noobness",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-staff-wood-gold-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1583,
@@ -10993,57 +10993,57 @@
         "Item ID": 1585,
         "Name": "Tuff Luv 2nd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-tuff-luv-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1586,
         "Name": "Agility Lick Wounds 2nd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/lick-wounds-agility-icon.png",
-        "Sell": "100K",
-        "Buy": "100K"
+        "Sell": 100000,
+        "Buy": 100000
     },
     {
         "Item ID": 1587,
         "Name": "Agility Lick Wounds 3rd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/lick-wounds-agility-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1588,
         "Name": "Lick Wounds 5th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/lick-wounds-icon.png",
-        "Sell": "130K",
-        "Buy": "130K"
+        "Sell": 130000,
+        "Buy": 130000
     },
     {
         "Item ID": 1589,
         "Name": "Lick Wounds 6th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/lick-wounds-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1590,
         "Name": "Boom! Headshot! 4th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/boom-headshot-icon.png",
-        "Sell": "100K",
-        "Buy": "100K"
+        "Sell": 100000,
+        "Buy": 100000
     },
     {
         "Item ID": 1591,
         "Name": "Boom! Headshot! 5th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/boom-headshot-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1592,
         "Name": "Easter Egg Bundle",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-easter-egg-bundle-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1593,
@@ -11147,36 +11147,36 @@
         "Item ID": 1607,
         "Name": "Egg Basket",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-egg-basket-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1608,
         "Name": "Cracked Egg",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-egg-chick-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1609,
         "Name": "Egg Topper",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-egg-nest-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1610,
         "Name": "Egg Baton",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-egg-baton-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1611,
         "Name": "Cursed Egg Staff",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-dark-bunny-staff-icon.png",
-        "Sell": "100K",
-        "Buy": "100K"
+        "Sell": 100000,
+        "Buy": 100000
     },
     {
         "Item ID": 1612,
@@ -11224,50 +11224,50 @@
         "Item ID": 1618,
         "Name": "Jar of Salsa",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-salsa-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1619,
         "Name": "Taco",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-taco-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1620,
         "Name": "Acoustic Guitar",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-guitar-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1621,
         "Name": "Gold Acoustic Guitar",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-guitar-gold-icon.png",
-        "Sell": "75K",
-        "Buy": "75K"
+        "Sell": 75000,
+        "Buy": 75000
     },
     {
         "Item ID": 1622,
         "Name": "Sombrero",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-sombrero-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1623,
         "Name": "Poncho",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-poncho-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1624,
         "Name": "Fiesta Dress",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-salsa-dress-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1625,
@@ -11287,8 +11287,8 @@
         "Item ID": 1627,
         "Name": "Pepper Power 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-pepper-icon.png",
-        "Sell": "65K",
-        "Buy": "65K"
+        "Sell": 65000,
+        "Buy": 65000
     },
     {
         "Item ID": 1628,
@@ -11532,687 +11532,687 @@
         "Item ID": 1662,
         "Name": "Skunk Doll",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-skunk-doll-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1663,
         "Name": "Eau De Stinque",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-stinque-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1664,
         "Name": "Skunk Repellant",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-repelant-icon.png",
-        "Sell": "3.3K",
-        "Buy": "3.3K"
+        "Sell": 3300,
+        "Buy": 3300
     },
     {
         "Item ID": 1665,
         "Name": "Deer Tail",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-deer-tail-icon.png",
-        "Sell": "3.3K",
-        "Buy": "3.3K"
+        "Sell": 3300,
+        "Buy": 3300
     },
     {
         "Item ID": 1666,
         "Name": "Deer Antler",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-deer-horn-icon.png",
-        "Sell": "4K",
-        "Buy": "4K"
+        "Sell": 4000,
+        "Buy": 4000
     },
     {
         "Item ID": 1667,
         "Name": "Black Truffle",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-black-truffle-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1668,
         "Name": "White Truffle",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-white-truffle-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1669,
         "Name": "Tooth",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-tooth-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1670,
         "Name": "Sugar Plum",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-sugar-plum-icon.png",
-        "Sell": "3.5K",
-        "Buy": "3.5K"
+        "Sell": 3500,
+        "Buy": 3500
     },
     {
         "Item ID": 1671,
         "Name": "Gold Chainsaw",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-chainsaw-gold-icon.png",
-        "Sell": "450K",
-        "Buy": "450K"
+        "Sell": 450000,
+        "Buy": 450000
     },
     {
         "Item ID": 1672,
         "Name": "Blue Gnome's Battle Plans",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-battle-plans-blue-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1673,
         "Name": "Red Gnome's Battle Plans",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-battle-plans-red-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1674,
         "Name": "Blue Gnome Coin",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-gnome-money-blue-icon.png",
-        "Sell": "5K",
-        "Buy": "6K"
+        "Sell": 5000,
+        "Buy": 6000
     },
     {
         "Item ID": 1675,
         "Name": "Red Gnome Coin",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-gnome-money-red-icon.png",
-        "Sell": "5K",
-        "Buy": "6K"
+        "Sell": 5000,
+        "Buy": 6000
     },
     {
         "Item ID": 1676,
         "Name": "Ceramic Blue Gnome",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-ceramic-gnome-blue-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1677,
         "Name": "Ceramic Red Gnome",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-ceramic-gnome-red-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1678,
         "Name": "Fried Frog Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-fried-frog-legs-icon.png",
-        "Sell": "6.5K",
-        "Buy": "6.5K"
+        "Sell": 6500,
+        "Buy": 6500
     },
     {
         "Item ID": 1679,
         "Name": "Fly",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-fly-icon.png",
-        "Sell": "5.5K",
-        "Buy": "6.5K"
+        "Sell": 5500,
+        "Buy": 6500
     },
     {
         "Item ID": 1680,
         "Name": "Frog Eggs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-frog-eggs-icon.png",
-        "Sell": "3.5K",
-        "Buy": "4K"
+        "Sell": 3500,
+        "Buy": 4000
     },
     {
         "Item ID": 1681,
         "Name": "Webbed Foot",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-webbed-foot-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1682,
         "Name": "Lucky Rabbit's Foot",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-lucky-rabbits-foot-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1683,
         "Name": "Rabbit Hide",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-rabbit-hide-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1684,
         "Name": "Summer Flower",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-summer-flower-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1685,
         "Name": "Seedling",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-seedling-icon.png",
-        "Sell": "8K",
-        "Buy": "8K"
+        "Sell": 8000,
+        "Buy": 8000
     },
     {
         "Item ID": 1686,
         "Name": "Lily Pad",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-lily-pad-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1687,
         "Name": "Swamp Imp Ear",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-imp-ear-marsh-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1688,
         "Name": "Cat Tail",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-cat-tail-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1689,
         "Name": "Pea Pod",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-pea-pod-icon.png",
-        "Sell": "3K",
-        "Buy": "4K"
+        "Sell": 3000,
+        "Buy": 4000
     },
     {
         "Item ID": 1690,
         "Name": "Wood Tablet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-wood-tablet-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1691,
         "Name": "Hoof",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-hoof-icon.png",
-        "Sell": "3K",
-        "Buy": "4K"
+        "Sell": 3000,
+        "Buy": 4000
     },
     {
         "Item ID": 1692,
         "Name": "Centaur Hair",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-centaur-tail-icon.png",
-        "Sell": "4K",
-        "Buy": "5K"
+        "Sell": 4000,
+        "Buy": 5000
     },
     {
         "Item ID": 1693,
         "Name": "Satyr Horn",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-satyr-horn-icon.png",
-        "Sell": "4.5K",
-        "Buy": "5K"
+        "Sell": 4500,
+        "Buy": 5000
     },
     {
         "Item ID": 1694,
         "Name": "Firefly",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-firefly-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1695,
         "Name": "Old Hag Karen's Will",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-last-will-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1696,
         "Name": "Pot of Honey",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-honey-jar-icon.png",
-        "Sell": "3.5K",
-        "Buy": "3.5K"
+        "Sell": 3500,
+        "Buy": 3500
     },
     {
         "Item ID": 1697,
         "Name": "Honeycomb",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-honeycomb-icon.png",
-        "Sell": "6K",
-        "Buy": "6K"
+        "Sell": 6000,
+        "Buy": 6000
     },
     {
         "Item ID": 1698,
         "Name": "Skunk Hat",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-skunk-hat-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1699,
         "Name": "Blue Gnome Cap",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-gnome-cap-blue-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1700,
         "Name": "Red Gnome Cap",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-gnome-cap-red-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1701,
         "Name": "Frog Head",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-frog-cap-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1702,
         "Name": "Butterfly Hair Clip",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-butterfly-headpiece-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1703,
         "Name": "Loincloth",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-loincloth-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1704,
         "Name": "Infected Venison",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-infected-venison-icon.png",
-        "Sell": "2.5K",
-        "Buy": "2.5K"
+        "Sell": 2500,
+        "Buy": 2500
     },
     {
         "Item ID": 1705,
         "Name": "Mysterious Berries",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-mysterious-berries-icon.png",
-        "Sell": "4K",
-        "Buy": "4K"
+        "Sell": 4000,
+        "Buy": 4000
     },
     {
         "Item ID": 1706,
         "Name": "Eden Sword",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-eden-sword-icon.png",
-        "Sell": "100K",
-        "Buy": "100K"
+        "Sell": 100000,
+        "Buy": 100000
     },
     {
         "Item ID": 1707,
         "Name": "Mini Axe",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-mini-axe-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1708,
         "Name": "Butcher Knife",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-butcher-knife-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1709,
         "Name": "Carving Knife",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-carving-knife-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1710,
         "Name": "Wood Spear",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-wood-spear-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1711,
         "Name": "Whisper Wand",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-spectral-wand-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1712,
         "Name": "Lettuce Shield",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/offhand-lettuce-shield-icon.png",
-        "Sell": "20K",
-        "Buy": "20K"
+        "Sell": 20000,
+        "Buy": 20000
     },
     {
         "Item ID": 1713,
         "Name": "Wooden Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-wooden-legs-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1714,
         "Name": "Wooden Body",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-wooden-body-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1715,
         "Name": "Wooden Helmet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-wooden-helmet-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1716,
         "Name": "Wooden Face",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-wooden-face-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1717,
         "Name": "Ring of Nature",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/ring-natures-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1718,
         "Name": "Werebear Totem",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/trinket-werebear-totem-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1719,
         "Name": "Earth Fruit",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-earth-fruit-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1720,
         "Name": "Leaf Cape",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-leaf-cape-icon.png",
-        "Sell": "200K",
-        "Buy": "200K"
+        "Sell": 200000,
+        "Buy": 200000
     },
     {
         "Item ID": 1721,
         "Name": "Bog Water",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-bog-water-icon.png",
-        "Sell": "2K",
-        "Buy": "2K"
+        "Sell": 2000,
+        "Buy": 2000
     },
     {
         "Item ID": 1722,
         "Name": "Mahogany Dust",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-tree-saw-dust-icon.png",
-        "Sell": "1.5K",
-        "Buy": "1.5K"
+        "Sell": 1500,
+        "Buy": 1500
     },
     {
         "Item ID": 1723,
         "Name": "Mahogany Branch",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-tree-branch-icon.png",
-        "Sell": "15K",
-        "Buy": "15K"
+        "Sell": 15000,
+        "Buy": 15000
     },
     {
         "Item ID": 1724,
         "Name": "Mahogany Log",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-log-icon.png",
-        "Sell": "75K",
-        "Buy": "75K"
+        "Sell": 75000,
+        "Buy": 75000
     },
     {
         "Item ID": 1725,
         "Name": "Mahogany Board",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-plank-inforced-icon.png",
-        "Sell": "150K",
-        "Buy": "150K"
+        "Sell": 150000,
+        "Buy": 150000
     },
     {
         "Item ID": 1726,
         "Name": "Infused Mahogany Board",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-plank-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1727,
         "Name": "Centaur Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-centaur-legs-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1728,
         "Name": "Forest Keepers Skirt",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-dryad-skirt-icon.png",
-        "Sell": "275K",
-        "Buy": "275K"
+        "Sell": 275000,
+        "Buy": 275000
     },
     {
         "Item ID": 1729,
         "Name": "Forest Keepers Top",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-dryad-top-icon.png",
-        "Sell": "300K",
-        "Buy": "300K"
+        "Sell": 300000,
+        "Buy": 300000
     },
     {
         "Item ID": 1730,
         "Name": "Forest Keepers Hair",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-dryad-hair-icon.png",
-        "Sell": "325K",
-        "Buy": "325K"
+        "Sell": 325000,
+        "Buy": 325000
     },
     {
         "Item ID": 1731,
         "Name": "Forest Keepers Bow",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-dryad-bow-icon.png",
-        "Sell": "400K",
-        "Buy": "400K"
+        "Sell": 400000,
+        "Buy": 400000
     },
     {
         "Item ID": 1732,
         "Name": "Fairy Wings",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-dryad-wings-icon.png",
-        "Sell": "450K",
-        "Buy": "450K"
+        "Sell": 450000,
+        "Buy": 450000
     },
     {
         "Item ID": 1733,
         "Name": "Lumber Lords Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-lumber-lord-legs-icon.png",
-        "Sell": "275K",
-        "Buy": "275K"
+        "Sell": 275000,
+        "Buy": 275000
     },
     {
         "Item ID": 1734,
         "Name": "Lumber Lords Shirt",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-lumber-lord-shirt-icon.png",
-        "Sell": "300K",
-        "Buy": "300K"
+        "Sell": 300000,
+        "Buy": 300000
     },
     {
         "Item ID": 1735,
         "Name": "Lumber Lords Helmet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-lumber-lord-helmet-icon.png",
-        "Sell": "325K",
-        "Buy": "325K"
+        "Sell": 325000,
+        "Buy": 325000
     },
     {
         "Item ID": 1736,
         "Name": "Lumber Lords Bag",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/outfit-lumber-lord-bag-icon.png",
-        "Sell": "400K",
-        "Buy": "400K"
+        "Sell": 400000,
+        "Buy": 400000
     },
     {
         "Item ID": 1737,
         "Name": "Forest Keepers Badge",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/consumable-faction-badge-cotf-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1738,
         "Name": "Lumber Lords Badge",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/consumable-faction-badge-lumber-lord-icon.png",
-        "Sell": "10K",
-        "Buy": "10K"
+        "Sell": 10000,
+        "Buy": 10000
     },
     {
         "Item ID": 1739,
         "Name": "Forest Keepers Medallion",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-dm-medallion-icon.png",
-        "Sell": "250K",
-        "Buy": "250K"
+        "Sell": 250000,
+        "Buy": 250000
     },
     {
         "Item ID": 1740,
         "Name": "Forest Keepers Banner",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-dm-banner-icon.png",
-        "Sell": "350K",
-        "Buy": "350K"
+        "Sell": 350000,
+        "Buy": 350000
     },
     {
         "Item ID": 1741,
         "Name": "Forest Keepers Crest",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-dm-insignia-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1742,
         "Name": "Lumber Lords Medallion",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-lumber-lord-medallion-icon.png",
-        "Sell": "250K",
-        "Buy": "250K"
+        "Sell": 250000,
+        "Buy": 250000
     },
     {
         "Item ID": 1743,
         "Name": "Lumber Lords Banner",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-lumber-lord-banner-icon.png",
-        "Sell": "350K",
-        "Buy": "350K"
+        "Sell": 350000,
+        "Buy": 350000
     },
     {
         "Item ID": 1744,
         "Name": "Lumber Lords Crest",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-lumber-lord-insignia-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1745,
         "Name": "Cottontail Carnage 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-muderous-rabbit-icon.png",
-        "Sell": "100K",
-        "Buy": "100K"
+        "Sell": 100000,
+        "Buy": 100000
     },
     {
         "Item ID": 1746,
         "Name": "Frogget About It 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-frog-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1747,
         "Name": "Wind Metamorph 2nd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-air-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1748,
         "Name": "Ice Metamorph 2nd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-ice-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1749,
         "Name": "Earth Metamorph 2nd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-earth-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1750,
         "Name": "Fire Metamorph 2nd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-morph-fire-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1751,
         "Name": "Dark Marsh Teleport Scroll",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/scroll-teleport-dm-icon.png",
-        "Sell": "3K",
-        "Buy": "3K"
+        "Sell": 3000,
+        "Buy": 3000
     },
     {
         "Item ID": 1752,
         "Name": "That's The Stuff 5th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/thats-the-stuff-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1753,
         "Name": "Vampiric Blade 4th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-vampiric-blade-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1754,
         "Name": "Reckless Strike 4th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-reckless-strike-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1755,
         "Name": "Twilightning Bolt 4th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-twilightningbolt-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1756,
         "Name": "Arrow Barrage 3rd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-arrow-barrage-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1757,
         "Name": "Energy Orbs 3rd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-energy-orbs-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1758,
         "Name": "Thick Skin 7th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/thick-skin-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1759,
         "Name": "Self-Motivated 6th Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/self-motivated-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1760,
@@ -12225,133 +12225,133 @@
         "Item ID": 1761,
         "Name": "Indestructible Gold Plate",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/crafting-gold-plate-indestructible-icon.png",
-        "Sell": "50K",
-        "Buy": "50K"
+        "Sell": 50000,
+        "Buy": 50000
     },
     {
         "Item ID": 1762,
         "Name": "Core Crystal",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-neutral-crystal-icon.png",
-        "Sell": "25K",
-        "Buy": "25K"
+        "Sell": 25000,
+        "Buy": 25000
     },
     {
         "Item ID": 1763,
         "Name": "Earth Crystal",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-ground-crystal-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1764,
         "Name": "Wind Crystal",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-wind-crystal-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1765,
         "Name": "Ice Crystal",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-ice-crystal-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1766,
         "Name": "Fire Crystal",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/item-fire-crystal-icon.png",
-        "Sell": "5K",
-        "Buy": "5K"
+        "Sell": 5000,
+        "Buy": 5000
     },
     {
         "Item ID": 1767,
         "Name": "Tuff Luv 3rd Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-tuff-luv-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1768,
         "Name": "Lay To Rest 1st Edition",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/skillbook-lay-to-rest-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1769,
         "Name": "Tiamat Legs",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-t5-agi-legs-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1770,
         "Name": "Tiamat Body",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-t5-agi-body-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1771,
         "Name": "Tiamat Helmet",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-t5-agi-helmet-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1772,
         "Name": "Tiamat Face",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-t5-agi-face-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1773,
         "Name": "Tiamat Mantleplate",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/armor-t5-agi-shoulder-icon.png",
-        "Sell": "500K",
-        "Buy": "500K"
+        "Sell": 500000,
+        "Buy": 500000
     },
     {
         "Item ID": 1774,
         "Name": "Pegasus Wings",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-t5-agi-bow-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1775,
         "Name": "Drakepiercer",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-t5-agi-one-hand-icon.png",
-        "Sell": "2M",
-        "Buy": "2M"
+        "Sell": 2000000,
+        "Buy": 2000000
     },
     {
         "Item ID": 1776,
         "Name": "Crystal Halberd",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-t4-agi-one-hand-icon.png",
-        "Sell": "1M",
-        "Buy": "1M"
+        "Sell": 1000000,
+        "Buy": 1000000
     },
     {
         "Item ID": 1777,
         "Name": "Death Scythe",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-t3-agi-one-hand-icon.png",
-        "Sell": "150K",
-        "Buy": "150K"
+        "Sell": 150000,
+        "Buy": 150000
     },
     {
         "Item ID": 1778,
         "Name": "Twin Talon",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-t2-agi-one-hand-icon.png",
-        "Sell": "75K",
-        "Buy": "75K"
+        "Sell": 75000,
+        "Buy": 75000
     },
     {
         "Item ID": 1779,
         "Name": "Draco Scythe",
         "Sprite-Link": "https://art.fantasyonline2.com/textures/icons/items/weapon-t1-agi-one-hand-icon.png",
-        "Sell": "35K",
-        "Buy": "35K"
+        "Sell": 35000,
+        "Buy": 35000
     }
 ]
