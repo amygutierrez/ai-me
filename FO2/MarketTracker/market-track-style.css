@@ -39,8 +39,8 @@ h1 { margin: 0; font-size: 2rem; }
 select { padding: 8px; border-radius: 4px; border: 1px solid #ddd; }
 
 /* Last Updated and Refresh Button Styles */
-.update-info { display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; justify-content: flex-start; overflow: hidden; margin-left: auto; font-size: 0.9rem; color: #555; }
-/* #last-updated-timestamp { white-space: nowrap; } */
+.update-info { display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; justify-content: flex-start; margin-left: auto; font-size: 0.9rem; color: #555; }
+#last-updated-timestamp { white-space: nowrap; }
 #refresh-button { padding: 6px 12px; flex-shrink: 0; white-space: nowrap; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; transition: background-color 0.3s; }
 #refresh-button:hover { background-color: #45a049; }
 #refresh-button:disabled { background-color: #cccccc; color: #666666; cursor: not-allowed; }
@@ -117,7 +117,6 @@ footer { margin-top: 40px; text-align: center; color: #757575; font-size: 0.9rem
      .update-info { margin-left: 0; margin-top: 10px; justify-content: space-between; }
 }
 @media (max-width: 768px) {
-    .update-info { justify-content: space-between; }
     .search-container, #search-form { flex-direction: column; }
     #search-input { border-radius: 4px; margin-bottom: 10px; }
     #search-button { border-radius: 4px; }

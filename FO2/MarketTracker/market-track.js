@@ -2,8 +2,114 @@ const API_BASE_URL = 'https://fantasyonline2.com/api/public';
         const API_KEY = process.env.API_KEY; // Replace with your actual key if needed
         let embeddedItemData = null; // Initialize as null
 
+<<<<<<< HEAD
         // Mock data for demonstration (replace with your actual data loading)
         async function loadEmbeddedItemData() {
+=======
+// Load the JSON file and assign its contents to embeddedItemData
+async function loadEmbeddedItemData() {
+    try {
+        console.log('Attempting to load item-data.json...');
+        const response = await fetch('item-data.json'); // Ensure the path is correct
+        console.log('Fetch response status:', response.status);
+
+        if (!response.ok) {
+            throw new Error(`Failed to load JSON file: ${response.statusText}`);
+        }
+        const jsonData = await response.json();
+        console.log('Raw JSON data:', jsonData);
+
+        embeddedItemData = jsonData;
+        console.log('Embedded item data loaded:', embeddedItemData);
+    } catch (error) {
+        console.error('Error loading embedded item data:', error);
+    }
+}
+
+// Call the function to load the JSON file
+loadEmbeddedItemData();
+
+let currentPage = 1;
+let totalPages = 1;
+let currentSort = 'TimeLeft';
+let currentDirection = 'DESC';
+let lastApiSearchTerm = ''; // Store term used for last API call
+let isLoading = false;
+let itemDatabase = null;
+let currentMarketListings = []; // Stores full data for the current page from API
+let currentlyDisplayedListings = []; // Stores the listings currently shown (after filtering)
+let abortController = null;
+let lastUpdateTime = null;
+let showProfitableOnlyState = false; // Tracks if the profitable filter *should* be active
+let isComprehensiveSearchActive = false; // Tracks if we are *currently showing* comprehensive results
+let comprehensiveSearchResults = [];
+let searchedPages = 0;
+let totalSearchPages = 0;
+let comprehensiveSearchAborted = false;
+let personalPrices = {}; // Holds user-defined prices {itemId: price}
+let selectedItemId = null; // Track the currently selected item ID for the details panel
+
+// DOM Elements
+const searchForm = document.getElementById('search-form');
+const searchInput = document.getElementById('search-input');
+const searchButton = document.getElementById('search-button');
+const sortBySelect = document.getElementById('sort-by');
+const sortDirectionSelect = document.getElementById('sort-direction');
+const messageContainer = document.getElementById('message-container');
+const databaseStatus = document.getElementById('database-status');
+const resultsContainer = document.getElementById('results-container');
+const resultsTable = document.getElementById('results-table');
+const resultsBody = document.getElementById('results-body');
+const prevPageButton = document.getElementById('prev-page');
+const nextPageButton = document.getElementById('next-page');
+const currentPageSpan = document.getElementById('current-page');
+const totalPagesSpan = document.getElementById('total-pages');
+const itemDetailsColumn = document.getElementById('item-details-column');
+const detailsIcon = document.getElementById('details-icon');
+const detailsName = document.getElementById('details-name');
+const detailsRecentlyListedPrice = document.getElementById('details-recently-listed-price');
+const detailsBuyPrice = document.getElementById('details-buy-price');
+const detailsSellPrice = document.getElementById('details-sell-price');
+const detailsError = document.getElementById('details-error');
+const lastUpdatedTimestampSpan = document.getElementById('last-updated-timestamp');
+const refreshButton = document.getElementById('refresh-button');
+const detailsPotentialProfit = document.getElementById('details-potential-profit');
+const detailsPersonalProfit = document.getElementById('details-personal-profit');
+const showProfitableButton = document.getElementById('show-profitable-only');
+const personalPriceInput = document.getElementById('details-personal-price');
+const searchProgressModal = document.getElementById('search-progress-modal');
+const searchProgressContent = document.getElementById('search-progress-content');
+const searchProgressMessage = document.getElementById('search-progress-message');
+const searchProgressBarContainer = document.getElementById('search-progress-bar-container');
+const searchProgressBar = document.getElementById('search-progress-bar');
+const cancelSearchButton = document.getElementById('cancel-search-button');
+
+
+// --- Local Storage Functions ---
+function loadPersonalPrices() {
+    try {
+        const storedPrices = localStorage.getItem('fo2PersonalPrices');
+        personalPrices = storedPrices ? JSON.parse(storedPrices) : {};
+        console.log("Loaded personal prices:", Object.keys(personalPrices).length);
+    } catch (error) {
+        console.error("Failed to load personal prices:", error);
+        personalPrices = {}; // Reset on error
+    }
+}
+
+function savePersonalPrice(itemId, price) {
+        if (itemId == null) return;
+        const stringItemId = String(itemId);
+
+    const priceValue = price === '' ? null : parseFloat(price);
+
+    if (priceValue === null || (!isNaN(priceValue) && priceValue >= 0)) {
+            if (priceValue === null || price === '') {
+                delete personalPrices[stringItemId];
+            } else {
+            personalPrices[stringItemId] = priceValue;
+            }
+>>>>>>> parent of 4d7103b (removing last update timestamp)
             try {
                 console.log('Loading mock item data...');
                 // Mock data structure - replace with your actual JSON loading
@@ -109,6 +215,57 @@ const API_BASE_URL = 'https://fantasyonline2.com/api/public';
                     displayItemDetails(itemId);
                 }
             }
+<<<<<<< HEAD
+=======
+        });
+        console.log('Database load successfully:', (validItems));
+        // databaseStatus.innerHTML = `<div class="database-status"><span>Item database loaded successfully (${validItems} items)</span></div>`;
+        return true;
+    } catch (error) {
+        console.error('Database load error:', error);
+        // databaseStatus.innerHTML = `<div class="database-status error"><span>Failed to load item database: ${error.message}</span><button onclick="location.reload()">Retry</button></div>`;
+        return false;
+    }
+}
+
+function findItemById(itemId) { return itemDatabase?.[String(itemId)] || null; }
+function formatNumber(num) { return (num == null || isNaN(num)) ? 'N/A' : num.toLocaleString(); }
+function formatPrice(price) { return (price == null || price === "" || isNaN(price)) ? 'N/A' : `${formatNumber(price)} Coins`; }
+function setTableLoading(loading) { if (loading) { resultsBody.innerHTML = `<tr><td colspan="3" style="text-align:center; padding: 30px;"><div class="loading-spinner"></div></td></tr>`; } }
+function updateTimestampDisplay() { lastUpdatedTimestampSpan.textContent = lastUpdateTime ? `Last Updated: ${lastUpdateTime.toLocaleTimeString()}` : 'Last Updated: Never'; }
+
+async function searchMarket(page = currentPage, term = searchInput.value.trim(), sort = currentSort, direction = currentDirection) {
+    const isForComprehensive = isComprehensiveSearchActive; // Snapshot state
+    if (isLoading && !isForComprehensive) return { error: "Already loading" };
+
+    isLoading = true;
+    disableControls(true, isForComprehensive); // Disable controls
+    if (!isForComprehensive) {
+        setTableLoading(true);
+        messageContainer.innerHTML = '';
+    }
+    lastApiSearchTerm = term;
+
+    if (abortController) { abortController.abort("New search started"); }
+    abortController = new AbortController();
+    const signal = abortController.signal;
+
+    try {
+        const response = await fetch(`${API_BASE_URL}/market/search`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'x-api-key': API_KEY },
+            body: JSON.stringify({ search_term: term, sort_by: sort, sort_direction: direction, page: page }),
+            signal: signal
+        });
+
+        if (!response.ok) {
+            let errorData;
+            try { errorData = await response.json(); } catch { errorData = null; }
+            let errorMsg = `API Error: ${response.status} ${response.statusText}. ${errorData?.message || ''}`;
+            if (response.status === 429) errorMsg = `API Rate Limit Hit. Please wait. ${errorData?.message || ''}`;
+            else if (response.status === 401) errorMsg = `API Authentication Error (Invalid Key?). ${errorData?.message || ''}`;
+            throw new Error(errorMsg);
+>>>>>>> parent of 4d7103b (removing last update timestamp)
         }
 
         async function loadItemDatabase() {
@@ -132,6 +289,15 @@ const API_BASE_URL = 'https://fantasyonline2.com/api/public';
                 return false;
             }
         }
+<<<<<<< HEAD
+=======
+        updatePagination();
+        applyClientSideFilter(); // Filter and display the new data
+        resultsContainer.style.display = 'flex';
+        lastUpdateTime = new Date();
+        updateTimestampDisplay();
+        return data; // Return data
+>>>>>>> parent of 4d7103b (removing last update timestamp)
 
         function findItemById(itemId) { 
             return itemDatabase?.[String(itemId)] || null; 
@@ -600,11 +766,21 @@ const API_BASE_URL = 'https://fantasyonline2.com/api/public';
             }
         });
 
+<<<<<<< HEAD
         personalPriceInput.addEventListener('change', () => {
             if (selectedItemId) { 
                 savePersonalPrice(selectedItemId, personalPriceInput.value); 
             }
         });
+=======
+// --- Initial Load ---
+async function initializeApp() {
+    try {
+        loadPersonalPrices(); // Load personal prices (if applicable)
+        await loadEmbeddedItemData(); // Ensure JSON data is loaded before proceeding
+        const dbLoaded = await loadItemDatabase(); // Load the item database after JSON is loaded
+        updateTimestampDisplay(); // Update timestamp display
+>>>>>>> parent of 4d7103b (removing last update timestamp)
 
         showProfitableButton.addEventListener('click', function() {
             if (isLoading) return;
